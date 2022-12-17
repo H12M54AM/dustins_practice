@@ -1,5 +1,5 @@
 import Head from 'next/head'
-const inter = Inter({ subsets: ['latin'] });
+// const inter:any = inter({ subsets: ['latin'] });
 
 export default function Home() {
   return (
@@ -11,8 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-        
+        <div className=" bg-slate-300"></div>
       </main>
     </>
   )
 }
+
