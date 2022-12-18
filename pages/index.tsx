@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 // const inter:any = inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <main className="">
         <Navbar />
         
+        <Footer />
       </main>
     </>
   )
