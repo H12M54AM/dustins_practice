@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 // const inter:any = inter({ subsets: ['latin'] });
 
 export default function Home() {
@@ -11,9 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-        <div className=" bg-slate-300"></div>
+        <Navbar />
+        
       </main>
     </>
   )
 }
-
